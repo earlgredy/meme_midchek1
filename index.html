@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>memegallery</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		html{font-family: 'Noto Serif', serif;}
+
+		span{
+			margin-left: 16px;
+			display: block;
+			font-size:29px;
+			margin-bottom: 3px;
+			position: sticky;
+		}
+
+		h1{margin: 0; padding: 0;}
+
+
+		//여기까지 폰트 셋팅
+
+		* { box-sizing: border-box;}
+
+    	.leftmenu{
+    		background-color: white;
+        	height: 800px;
+    
+        	width: 16%;
+        	position: sticky;
+
+        	
+        	//->이거 핵중요함
+    	}
+
+
+
+    	#toppage{
+    		height: 800px;
+    		width: 100%;
+
+    	}
+
+    	#mainzzal1{
+    		height: 500px;
+    		width: ;
+    		margin-left:420px;
+    	}
+
+    	#mainzzal2{
+    		width: 560px;
+    	
+    		margin-right:300px;
+    	}
+
+
+
+
+
+	</style>
+</head>
+
+
+
+
+
+
+
+<body style="margin: 0px;">
+
+	<section id=toppage>
+		
+	<header id=maintittle style="font-size:60px; margin-left:420px; margin-right: 560px; padding-top:100px;">
+		<h1>
+			Welcome to 
+			Meme Gallery
+		</h1>
+		
+
+	</header>
+
+	<div style="font-size:18px;margin-left: 930px; margin-right: 156px;">
+		Mostra Collettiva, Premio Marchionni, Magmma Museo d’Arte Grafica del Mediterraneo Marchionni, Villacidro, Sardegna, Italia. 2016 
+
+Mostra Collettiva, PremioArte2013, Rivista Arte Cairo Editore, Museo della Permanente, Via Filippo Turati, 34, Milano, Italia. 2013
+MIND VOGUE, Mostra personale a cura di Renzo Spadotto e Alessandra Santin, Associazione Culturale Woland Art Club, Galleria Woland Art Club, Portopiccolo, Trieste, Italia. 2017
+	</div>
+
+	</section>
+
+
+
+
+
+	<section id=largepage style=" position: absolute;display: flex;" >
+
+		
+
+		<img id="mainzzal1" src="Despair1.png" >
+
+		<div id=mainzzalT style= "margin-left: 65px; margin-right: 156px;" >
+			<header style="font-size:60px;">
+				<h1>
+					Today's meme
+				</h1>
+
+			</header>
+
+       <div style="font-size:18px;">
+		MIND VOGUE, Mostra personale a cura di Renzo Spadotto e Alessandra Santin, Associazione Culturale Woland Art Club, Galleria Woland Art Club, Portopiccolo, Trieste, Italia. 2017
+MIND VOGUE, Mostra personale a cura di Renzo Spadotto e Alessandra Santin, Associazione Culturale Woland Art Club, Galleria Woland Art Club, Portopiccolo, Trieste, Italia. 2017
+			</div>
+		</div>
+
+	
+
+		
+
+	</section>
+
+
+	
+
+
+
+
+		<div class=leftmenu style=" position: sticky;"> 
+
+			<div id="lefttittle" style="font-size:34px; margin-left: 16px ;padding-top:24px; padding-bottom: 42px; position: sticky;">
+			Meme Gallery
+
+			</div>
+
+			<div style="font-size:29px; margin-left: 16px ;margin-bottom: 40px; position: sticky;">
+			meme you're looking for
+
+			</div>
+			
+
+			<span class= "buttn" id="funBut" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			Fun
+			</span>
+
+			<span class= "buttn" id="examBut" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			Exam
+			</span>
+
+			<span class= "buttn" onmouseover="mouseOver()" onmouseout="mouseOut()">
+			Office work
+			</span>
+
+			<span >
+			Diet
+			</span>
+
+			<span >
+			Stock
+			</span>
+
+			<span >
+			Happiness
+			</span>
+
+			<span >
+			Despair
+			</span>
+
+			<span >
+			Anger
+			</span>
+
+			<span >
+			Reality
+			</span>
+
+		
+		</div> 
+
+
+
+
+
+		<section id=largepage2 style="display: flex; position: absolute;" >
+
+		<div id=mainzzalT style= "margin-left: 300px; margin-right: 65px;" >
+			<header style="font-size:60px;">
+				<h1>
+					meme of this week
+				</h1>
+
+			</header>
+
+       <div style="font-size:18px;">
+		MIND VOGUE, Mostra personale a cura di Renzo Spadotto e Alessandra Santin, Associazione Culturale Woland Art Club, Galleria Woland Art Club, Portopiccolo, Trieste, Italia. 2017
+MIND VOGUE, Mostra personale a cura di Renzo Spadotto e Alessandra Santin, Associazione Culturale Woland Art Club, Galleria Woland Art Club, Portopiccolo, Trieste, Italia. 2017
+			</div>
+		</div>
+
+		<img id="mainzzal2" src="test2.jpg" >
+
+	</section>
+
+
+
+
+
+
+		<script type="text/javascript">
+
+		//마우스오버 인터렉션
+		function mouseOver() {
+  		document.getElementByClass("buttn").style.opacity = "0.4";
+		}
+
+		function mouseOut() {
+  		document.getElementByClass("buttn").style.opacity = "1";
+		}
+
+
+
+
+
+		
+		
+		</script>
+			
+
+	
+
+
+
+</body>
+</html>
